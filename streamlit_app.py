@@ -51,7 +51,7 @@ try:
 
 #import requests
 
-#streamlit.stop()
+streamlit.stop()
 
 #import snowflake.connector 
 
