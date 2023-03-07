@@ -44,7 +44,7 @@ try:
       back_from_function = get_fruityvice_data(fruit_choice)
       streamlit.dataframe(back_from_function)
  #except URLError as e:
- streamlit.error()
+ #streamlit.error()
       
 #streamlit.write('The user entered ', fruit_choice)
 #fruits_selected = streamlit.multiselect("What fruit would you like information about?", list(fruit_choice.index),['Kiwi'])
